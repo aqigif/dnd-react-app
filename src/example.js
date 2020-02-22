@@ -4,7 +4,7 @@ import { observe } from './Game'
 const containerStyle = {
   width: 500,
   height: 500,
-  border: '1px solid gray',
+  border: '2px solid gold',
 }
 /**
  * The Chessboard Tutorial Application
@@ -14,9 +14,11 @@ const ChessboardTutorialApp = () => {
   // the observe function will return an unsubscribe callback
   useEffect(() => observe(newPos => setKnightPos(newPos)))
   return (
-    <div style={containerStyle}>
-      <Board knightPosition={knightPos} />
-    </div>
+    <center>
+      <div style={containerStyle}>
+        <Board knightPosition={knightPos} />
+      </div>
+    </center>
   )
 }
 export default ChessboardTutorialApp
