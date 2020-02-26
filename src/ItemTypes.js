@@ -1,4 +1,4 @@
 export default {
   KNIGHT: 'knight',
-  PION: 'pion'
+  BOX: 'box'
 }

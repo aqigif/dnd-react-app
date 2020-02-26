@@ -1,5 +1,6 @@
 import React from 'react';
 import Kuda from './Kuda';
+import Box from './Box';
 
 function App() {
   const [page, setPage] = React.useState('kuda');
@@ -8,8 +9,8 @@ function App() {
     switch (page) {
       case 'kuda':
         return <Kuda />
-      case 'appBuilder':
-        return <Kuda />
+      case 'box':
+        return <Box />
       default:
         return <div />
     }
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setPage('kuda')}>Kuda</button>
-      <button onClick={() => setPage('appBuilder')}>appBuilder</button>
+      <button onClick={() => setPage('box')}>Box</button>
       <div>
         {appRender()}
       </div>

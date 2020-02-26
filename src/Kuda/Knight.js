@@ -1,6 +1,6 @@
 import React from 'react'
 import { DragSource, DragPreviewImage } from 'react-dnd'
-import ItemTypes from './ItemTypes'
+import ItemTypes from '../ItemTypes'
 // import knightImage from './knightImage'
 const knightStyle = {
   fontSize: 40,

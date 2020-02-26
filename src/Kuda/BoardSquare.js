@@ -2,7 +2,7 @@ import React from 'react'
 import { DropTarget } from 'react-dnd'
 import { Square } from './Square'
 import { canMoveKnight, moveKnight } from './Game'
-import ItemTypes from './ItemTypes'
+import ItemTypes from '../ItemTypes'
 import Overlay from './Overlay'
 const boardSquareStyle = {
   position: 'relative',
