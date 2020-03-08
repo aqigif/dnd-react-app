@@ -1,4 +1,5 @@
 export default {
   KNIGHT: 'knight',
-  BOX: 'box'
+  BOX: 'box',
+  CARD: 'card'
 }

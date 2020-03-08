@@ -3,7 +3,7 @@ import Dustbin from './Dustbin'
 import Box from './Box'
 export default function Container() {
   return (
-    <center>
+    <div>
       <div style={{ overflow: 'hidden', clear: 'both' }}>
         <Dustbin />
       </div>
@@ -12,6 +12,6 @@ export default function Container() {
         <Box name="Videos" />
         <Box name="Banner" />
       </div>
-    </center>
+    </div>
   )
 }
